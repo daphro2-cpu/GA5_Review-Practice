@@ -31,7 +31,7 @@ Object.assign(BANK,{
  builder2:{title:'Time & Clue Studio',tag:'Tap the words',description:'Build ability questions and clue-based statements.',color:'yellow',type:'build',questions:[
  ['Ask about past ability. Start with Could.','Could you swim when you were five?','Could + subject + base verb; the past-time phrase follows here.','Past ability questions'],
  ['Make a negative past-ability sentence. Start with She.','She could not ride a bicycle.','Subject + could not + base verb.','Past ability'],
- ['Make a future-ability statement. Start with I.',['I will be able to dive next year.','Next year I will be able to dive.'],'Keep will + be able to + base verb together.','Future ability'],
+ ['Make a future-ability statement. Start with I.','I will be able to dive next year.','Keep will + be able to + base verb together.','Future ability'],
  ['Ask about future ability. Start with Will.','Will they be able to help tomorrow?','Will + subject + be able to + base verb?','Future ability questions'],
  ['Make a negative future-ability statement. Start with We.','We will not be able to enter.','Will not + be able to + base verb.','Future ability'],
  ['Make a strong deduction. Start with This.','This must be a dinosaur bone.','Must + base verb; be links to the noun phrase.','Strong deduction'],
@@ -66,10 +66,10 @@ Object.assign(BANK,{
  ]}
 });
 const PERSONAL2=[
- {title:'A skill when you were younger',prompt:'Write something you could do when you were younger. Include your age.',frame:'When I was …, I could …',checks:['Could + base verb, without to','A clear past-time phrase'],model:'When I was six, I could ride a bicycle.'},
- {title:'Something you couldn’t do',prompt:'Write a skill you did not have when you were younger.',frame:'When I was …, I couldn’t …',checks:['Couldn’t + base verb','Keep the main verb in the base form'],model:'When I was four, I couldn’t swim.'},
- {title:'A future ability',prompt:'Imagine a skill you expect to have after more practice.',frame:'After more practice, I will be able to …',checks:['Will + be able to + base verb','A future ability, rather than a past skill'],model:'After more practice, I will be able to play this song.'},
- {title:'A strong deduction',prompt:'Look at an object. Say what you are sure it is, and give a clue.',frame:'It must be / has to be … because …',checks:['Must be OR has to be + noun phrase','A reason that supports your deduction'],model:'It must be my notebook because my name is on the cover.'},
- {title:'A possibility',prompt:'Imagine a closed mystery box. Say what might be inside. Make it clear you are not sure.',frame:'It might be …, but …',checks:['Might + base verb be','A possibility, not a certainty'],model:'It might be a toy, but I am not sure.'},
- {title:'Rule out an idea',prompt:'Use a clue to explain why an object cannot be something.',frame:'It can’t be … because …',checks:['Can’t be for a strong negative deduction','A clear clue or reason'],model:'It can’t be my bag because my bag is green.'}
+ {title:'Your detective skill',prompt:'At the museum, your team needs a useful skill. What could your character do when younger?',frame:'When I was …, I could …',checks:['Could + base verb, without to','A clear past-time phrase'],model:'When I was six, I could read simple maps.'},
+ {title:'A challenge before the mission',prompt:'What could your detective not do at first? Keep the same character and mystery.',frame:'When I was …, I couldn’t …',checks:['Couldn’t + base verb','Keep the main verb in the base form'],model:'When I was five, I couldn’t read the labels in the museum.'},
+ {title:'A plan for the locked display',prompt:'What will your team be able to do after learning a skill or finding a tool? Connect it to the missing key.',frame:'After …, we will be able to …',checks:['Will + be able to + base verb','A future ability tied to the mystery'],model:'After studying the map, we will be able to find the hidden room.'},
+ {title:'A convincing museum clue',prompt:'Your team finds an object. What are you sure it is? Explain the evidence.',frame:'It must be / has to be … because …',checks:['Must be OR has to be + noun phrase','A reason supporting your deduction'],model:'It must be a key because it fits the lock.'},
+ {title:'A possibility to investigate',prompt:'What else might the clue mean? Explain what your team is still unsure about.',frame:'It might be …, but …',checks:['Might + base verb be','A possibility, not a certainty'],model:'It might be the missing display key, but we need to test it.'},
+ {title:'Rule out a false clue',prompt:'Use the final clue to rule out an idea. Explain what your team decides next.',frame:'It can’t be … because …',checks:['Can’t be for a strong negative deduction','A clear clue or reason'],model:'It can’t be a toy key because it opens the real display case.'}
 ];

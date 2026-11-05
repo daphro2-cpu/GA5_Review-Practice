@@ -65,11 +65,11 @@ const BANK={
  ]}
 };
 const PERSONAL=[
- {title:'An experience',prompt:'Write one thing you have or haven’t done in your life.',frame:'I have / haven’t …',checks:['Have or haven’t + past participle','No finished time such as yesterday'],model:'I have visited a wildlife park.'},
- {title:'An activity until now',prompt:'Write about something you started earlier and are still doing.',frame:'I have been … for / since …',checks:['Have been + -ing','For + duration OR since + starting point'],model:'I have been learning English for five years.'},
- {title:'A routine',prompt:'Write about something a friend does regularly.',frame:'My friend … every …',checks:['Simple present','He / she / one friend: remember -s'],model:'My friend reads every evening.'},
- {title:'Right now',prompt:'Look around. What is someone doing?',frame:'… is / are …',checks:['Am / is / are + -ing','An action happening now'],model:'My sister is drawing a picture.'},
- {title:'A finished event',prompt:'Write about something you did yesterday.',frame:'Yesterday, I …',checks:['Simple past form','A finished past time'],model:'Yesterday, I helped my grandmother.'},
- {title:'A state until now',prompt:'Write about something you have had or someone you have known for a long time.',frame:'I have had / known … for / since …',checks:['Have + had or known','Use for / since correctly; no been knowing'],model:'I have known my best friend for three years.'}
+ {title:'Your zoo experience',prompt:'Your team is helping a young giraffe. What relevant animal-care experience have you had?',frame:'I have / haven’t …',checks:['Have or haven’t + past participle','No finished time such as yesterday'],model:'I have helped feed giraffes before.'},
+ {title:'The rescue continues',prompt:'What has your team been doing to help the giraffe? Say how long it has continued.',frame:'We have been … for / since …',checks:['Have been + -ing','For + duration OR since + starting point'],model:'We have been preparing food for the giraffe since this morning.'},
+ {title:'Your teammate’s care routine',prompt:'What does your friend regularly do at the zoo? Connect the routine to caring for the animals.',frame:'My friend … every …',checks:['Simple present','He / she / one friend: remember -s'],model:'My friend checks the animals every morning.'},
+ {title:'The rescue right now',prompt:'What is your team doing for the young giraffe right now?',frame:'We are …',checks:['Am / is / are + -ing','An action happening now'],model:'We are carrying fresh leaves to the young giraffe.'},
+ {title:'Yesterday’s surprise',prompt:'What happened to start the giraffe rescue yesterday? Add an event your team can respond to.',frame:'Yesterday, …',checks:['Simple past form','A finished past time'],model:'Yesterday, we found a young giraffe beside a broken fence.'},
+ {title:'Someone you can count on',prompt:'Introduce your teammate. How long have you known this person?',frame:'I have known … for / since …',checks:['Have + known','Use for / since correctly; no been knowing'],model:'I have known my zoo teammate for two years.'}
 ];
 if(typeof module!=='undefined')module.exports={BANK,PERSONAL};
